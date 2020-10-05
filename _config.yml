@@ -1,0 +1,48 @@
+# Site
+repository: ahmet-bilici/ahmet-bilici.github.io
+favicon: images/favicon.ico
+
+# Personal info
+name: Ahmet Bilici
+title: Sivil Hava Ulaştirma İşletmeciliği
+email: ahmetsaitbilici@gmail.com
+
+# Dark Mode (true/false/never)
+darkmode: never
+
+# Social links
+linkedin_username: .
+
+# About Section
+# about_title: About Me (Use this to override about section title)
+about_profile_image: images/profile.jpg
+about_content: | # this will include new lines to allow paragraphs
+  Merhaba, ben Ahmet. Kocaeli Üniversitesi Sivil Hava Ulaştırma İşletmeciliği bölümü mezunuyum.
+
+  Özgeçmişime [buradan](resources/ahmet_cv.pdf){:target="_blank"} ulaşabilir veya bana [email](mailto:ahmetsaitbilici@gmail.com) atabilirsiniz.
+
+# Footer
+footer_show_references: false
+
+# Build settings
+remote_theme: sproogen/modern-resume-theme (Use this if you are hosting your resume on GitHub)
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+ - jekyll-seo-tag
+
+exclude : [
+  "Gemfile",
+  "Gemfile.lock",
+  "node_modules",
+  "vendor/bundle/",
+  "vendor/cache/",
+  "vendor/gems/",
+  "vendor/ruby/",
+  "lib/",
+  "scripts/",
+  "docker-compose.yml",
+  ]
