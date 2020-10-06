@@ -19,7 +19,7 @@ about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
   Merhaba, ben Ahmet. Kocaeli Üniversitesi Sivil Hava Ulaştırma İşletmeciliği bölümü mezunuyum.
 
-  Özgeçmişime [buradan](resources/ahmet_cv.pdf){:target="_blank"} ulaşabilir veya bana [email](mailto:ahmetsaitbilici@gmail.com) atabilirsiniz.
+  Özgeçmişime [buradan](ahmet_cv.pdf){:target="_blank"} ulaşabilir veya bana [email](mailto:ahmetsaitbilici@gmail.com) atabilirsiniz.
 
 # Footer
 footer_show_references: false
